@@ -20,6 +20,10 @@ Set the theme by changing the `GRUB_THEME` variable in `/etc/default/grub/`.
 GRUB_THEME="/boot/grub/themes/simple-hidpi-grub-theme/theme.txt
 ```
 
+Update grub config.
+```
+update-grub || grub-mkconfig -o /boot/grub/grub.cfg
+```
 ## Optional
 Replace the `font.pf2` to the desired font for one's dpi.
 ```
