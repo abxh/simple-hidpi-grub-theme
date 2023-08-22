@@ -1,0 +1,36 @@
+title-text: ""
+desktop-color: "#000000"
+
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+terminal-font: "Terminus"
+
+# Countdown message
++ label {
+  id = "__timeout__"
+
+  left = 0
+  top = 100%-192
+  width = 100%
+  align = "center"
+
+  text = "Booting in %d seconds"
+  color = "#808080"
+  font = "Terminus"
+}
+
++ boot_menu {
+    left = 20%
+    top = 30%
+    width = 60%
+    height = 70%
+    item_font="Terminus"
+    item_color = "#808080"
+    item_pixmap_style = "item_*.png"
+    selected_item_color = "#000000"
+    selected_item_pixmap_style = "selected_*.png"
+}
+
