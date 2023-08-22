@@ -8,7 +8,7 @@ git clone --depth=1 --branch=main https://github.com/abxh/simple-hidpi-grub-them
 rm -rf ./simple-hidpi-grub-theme/.git
 ```
 
-Copy the theme to `/boot/grub/themes`. The steps after this should be done as a superuser or through tools like `sudo`.
+Copy the theme to `/boot/grub/themes`. The steps after this should be done as the superuser or through tools like `sudo`.
 ```
 mkdir -p /boot/grub/themes
 cp -r simple-hidpi-grub-theme /boot/grub/themes/
