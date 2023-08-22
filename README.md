@@ -2,7 +2,7 @@
 a minimalistic grub theme made for hidpi screens.
 
 ![](./bad_preview.jpg)
-_could not get grub to preview theme. Hopefully this will suffice as a preview._
+_Could not get grub to preview theme. Hopefully this will suffice as a preview._
 
 _The background is black, and the highlighted text is also black._
 
