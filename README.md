@@ -4,10 +4,8 @@ a minimalistic grub theme made for hidpi screens.
 ![](./bad_preview.jpg)
 _Could not get grub to preview theme. Hopefully this will suffice as a preview._
 
-_The background is black, and the highlighted text is also black._
-
 ## Install instructions
-Clone this repository
+Clone this repository.
 ```
 git clone --depth=1 --branch=main https://github.com/abxh/simple-hidpi-grub-theme
 ```
@@ -21,13 +19,14 @@ cp -r simple-hidpi-grub-theme/src /boot/grub/themes/simple-hidpi-grub-theme
 Set the theme by changing the `GRUB_THEME` variable in `/etc/default/grub`.
 ```
 # /etc/default/grub
-GRUB_THEME="/boot/grub/themes/simple-hidpi-grub-theme/theme.txt
+GRUB_THEME="/boot/grub/themes/simple-hidpi-grub-theme/theme.txt"
 ```
 
 Update the grub config.
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
 ## Optional
 Replace the `font.pf2` to the desired font for one's dpi.
 ```
