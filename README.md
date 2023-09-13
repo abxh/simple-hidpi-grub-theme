@@ -1,5 +1,5 @@
 # simple-hidpi-grub-theme
-a minimalistic grub theme made for hidpi screens.
+a system-boot-inspired grub theme made for a 1980x1080 screen.
 
 ![](./bad_preview.jpg)
 _Could not get grub to preview theme. Hopefully this will suffice as a preview._
