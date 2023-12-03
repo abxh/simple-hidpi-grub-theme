@@ -2,7 +2,7 @@
 a system-boot-inspired grub theme made for a hidpi 1980x1080 screen.
 
 ![](./bad_preview.jpg)
-_Could not get grub to preview theme. Hopefully this will suffice as a preview._
+_Could not get grub to preview theme. Hopefully this will suffice as a preview. It's not the best, I know._
 
 ## Install instructions
 Clone this repository.
