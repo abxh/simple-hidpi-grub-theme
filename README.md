@@ -1,8 +1,7 @@
 # simple-hidpi-grub-theme
 a system-boot-inspired grub theme made for a hidpi 1980x1080 screen.
 
-![](./bad_preview.jpg)
-_Could not get grub to preview theme. Hopefully this will suffice as a preview. It's not the best, I know._
+Probably looks like you expect of it. If you want a preview, then see [bad preview](https://github.com/abxh/simple-hidpi-grub-theme/blob/main/bad_preview.jpg).
 
 ## Install instructions
 Clone this repository.
@@ -10,7 +9,9 @@ Clone this repository.
 git clone --depth=1 --branch=main https://github.com/abxh/simple-hidpi-grub-theme
 ```
 
-Copy the theme to `/boot/grub/themes`. The steps after this should be done as the superuser or through tools like `sudo`.
+> The steps after this should be done as the superuser or through tools like `sudo`.
+
+Copy the theme to `/boot/grub/themes`. 
 ```
 mkdir -p /boot/grub/themes
 cp -r simple-hidpi-grub-theme/src /boot/grub/themes/simple-hidpi-grub-theme
