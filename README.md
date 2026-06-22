@@ -34,3 +34,7 @@ Replace the `font.pf2` to the desired font for one's dpi.
 # for terminus-font in arch
 cp /usr/share/grub/ter-u28b.pf2 /boot/grub/themes/simple-hidpi-grub-theme/font.pf2
 ```
+Try using the intended `1920x1080` resolution or fallback to default.
+```
+GRUB_GFXMODE=1920x1080,auto
+```
